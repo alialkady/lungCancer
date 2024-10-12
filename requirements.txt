@@ -1,0 +1,5 @@
+pandas==2.2.2
+psycopg==3.2.1
+numpy
+seaborn
+matplotlib
