@@ -3,3 +3,7 @@ psycopg==3.2.1
 numpy
 seaborn
 matplotlib
+SQLAlchemy
+scikit-learn
+xgboost
+joblib

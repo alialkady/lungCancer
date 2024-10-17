@@ -11,12 +11,11 @@ import os
 def load_models():
     logistic_model = joblib.load('models/logistic_regression.pkl')
     random_forest_model = joblib.load('models/random_forest.pkl')
-    xgboost_model = joblib.load('models/xgboost.pkl')
     svm_model = joblib.load('models/svm.pkl')
-    return logistic_model, random_forest_model, xgboost_model, svm_model
+    return logistic_model, random_forest_model, svm_model
 
 # Load models
-logistic_model, random_forest_model, xgboost_model, svm_model = load_models()
+logistic_model, random_forest_model, svm_model = load_models()
 
 # Define top 10 features
 top_features = [
@@ -49,7 +48,7 @@ def main():
 
     # Sidebar for model selection
     st.sidebar.header("Model Selection")
-    model_choice = st.sidebar.selectbox("Choose your model", ("Logistic Regression", "Random Forest", "XGBoost", "SVM"))
+    model_choice = st.sidebar.selectbox("Choose your model", ("Logistic Regression", "Random Forest", "SVM"))
 
     # User inputs
     st.header("Input Patient Features")
@@ -144,8 +143,6 @@ def main():
                 model = logistic_model
             elif model_choice == "Random Forest":
                 model = random_forest_model
-            elif model_choice == "XGBoost":
-                model = xgboost_model
             elif model_choice == "SVM":
                 model = svm_model
             else:
