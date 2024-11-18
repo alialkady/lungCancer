@@ -7,7 +7,7 @@
 - Provide insights to assist hospitals in diagnosing cancer stages.
 - Support early diagnosis and treatment planning.
 ## Table of content
-1. [Project overview](#1.-Project-overview)
+1. [Project overview](#project-overview)
 2. [Architecture](#Architecture)
 3. [Technologies Used](#Technologies-Used)
 4. [Data Sources](#Data-Sources)
