@@ -59,7 +59,7 @@ SQL server is used because it supports SSIS for ELT process and design data ware
 Spark is used for it's ditributed processing and handling big data sets.
 
 ## 8. Dashboards
-!Image[vis1.jpg] !Image[vis2.jpg]
+![Image](vis1.jpg) ![Image](vis2.jpg)
 
 
 
