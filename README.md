@@ -45,7 +45,17 @@ The project contain the following:
 ## 4. Data sources
 CSV file from data world website and another one created to handle some analyzing process.
 
-## 5. ETL process
+## 5. ELT process
+1. Extraction: using sql server to extract data from csv files and insert it in staging layer.
+2. Loading: Load the data into data warehouse(Star schema) for future transformation and analysis.
+3. Transformation: Tranform data in suitable manner for each purpose such as analysis and prediction.
+   
+
+## 6. Database systems
+SQL server is used because it supports SSIS for ELT process.
+
+## 7. Optimization processing
+Spark is used for it's 
 
 
 
