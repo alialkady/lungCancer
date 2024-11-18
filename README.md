@@ -22,7 +22,7 @@
 **Lung cancer** is used to predict earlier diagnoses and treatment planning that can help doctors discover the disease before becoming worth.
 The project contain the following:
 - **Docker-compose** file to launch the system and install all requirments needed.
-- ***Batch processing** using spark with juypter notebook to visualize the results.
+- **Batch processing** using spark with juypter notebook to visualize the results.
 - **ELT processing** with SSIS to transform data and keep chance for other stages to modify on transformation.
 - **predctive model*** with python to benefit from the data and get project purpose.
 - **Power Bi** to visualize data to stackholders with easy simplification.
@@ -36,7 +36,7 @@ The project contain the following:
 ## 3. Technology used
 - **Docker** to containerize the project with eazy deploymnet.
 - **SQL server** To create staging layer and data warehouse.
-- ***SQL Alchemy** to create engine and interact with database using python
+- **SQL Alchemy** to create engine and interact with database using python
 - **Matplotlib** to analyze data and get hidden patterns.
 - **Machine learning libraries** to make some predictions and use it with big data.
 - **Pyspark** for batch processing and handle large datasets in the future.
@@ -49,7 +49,7 @@ CSV file from data world website and another one created to handle some analyzin
 1. Extraction: using sql server to extract data from csv files and insert it in staging layer.
 2. Loading: Load the data into data warehouse(Star schema) for future transformation and analysis.
 3. Transformation: Tranform data in suitable manner for each purpose such as analysis and prediction.
-   
+   ![Image](Data pipeline.jpg)
 
 ## 6. Database systems
 SQL server is used because it supports SSIS for ELT process.
@@ -58,7 +58,4 @@ SQL server is used because it supports SSIS for ELT process.
 Spark is used for it's 
 
 
-
-
-  
 
