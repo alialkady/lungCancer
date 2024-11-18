@@ -16,8 +16,7 @@
 7. [Optimization Techniques](#Optimization-Techniques)
 8. [Dashboards](#Dashboards)
 9. [Setup and Installation](#Setup-and-Installation)
-10. [Usage](#Usage)
-11. [Contributing](#Contributing)
+10. 
 ## 1. Project overview
 **Lung cancer** is used to predict earlier diagnoses and treatment planning that can help doctors discover the disease before becoming worth.
 The project contain the following:
@@ -60,6 +59,19 @@ Spark is used for it's ditributed processing and handling big data sets.
 
 ## 8. Dashboards
 ![Image](vis1.jpg) ![Image](vis2.jpg)
+
+## 9. Setup and Installation
+### Prerequisites:
+- Docker installed
+- Docker-compose installed
+
+### Commands
+1- Clone repo
+```
+https://github.com/alialkady/lungCancer.git
+cd lungCancer
+```
+
 
 
 
