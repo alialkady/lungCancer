@@ -6,6 +6,10 @@
 - Develop Python-based models to predict the stage of cancer.
 - Provide insights to assist hospitals in diagnosing cancer stages.
 - Support early diagnosis and treatment planning.
+## Table of content
+1. Project overview
+2. Architecture
+3. 
 
   
 
