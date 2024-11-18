@@ -7,15 +7,15 @@
 - Provide insights to assist hospitals in diagnosing cancer stages.
 - Support early diagnosis and treatment planning.
 ## Table of content
-1. [Project overview](#Project_overview)
+1. [Project overview](#Project-overview)
 2. [Architecture](#Architecture)
-3. [Technologies Used](#Technologies_Used)
-4. [Data Sources](#Data_Sources)
-5. [ETL Process](#ETL_Process)
-6. [Database Systems](#Database_Systems)
-7. [Optimization Techniques](#Optimization_Techniques)
+3. [Technologies Used](#Technologies-Used)
+4. [Data Sources](#Data-Sources)
+5. [ETL Process](#ETL-Process)
+6. [Database Systems](#Database-Systems)
+7. [Optimization Techniques](#Optimization-Techniques)
 8. [Dashboards](#Dashboards)
-9. [Setup and Installation](#Setup_and_Installation)
+9. [Setup and Installation](#Setup-and-Installation)
 10. [Usage](#Usage)
 11. [Contributing](#Contributing)
 ## 1. Project overview
@@ -52,10 +52,14 @@ CSV file from data world website and another one created to handle some analyzin
    ![Image](Data%20pipeline.jpg)
 
 ## 6. Database systems
-SQL server is used because it supports SSIS for ELT process.
+SQL server is used because it supports SSIS for ELT process and design data warehouse.
+![Image](star%20schema.jpg)
 
 ## 7. Optimization processing
-Spark is used for it's 
+Spark is used for it's ditributed processing and handling big data sets.
+
+## 8. Dashboards
+!Image[vis1.jpg] !Image[vis2.jpg]
 
 
 
