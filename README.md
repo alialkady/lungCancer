@@ -16,7 +16,7 @@
 7. [Optimization Techniques](#Optimization-Techniques)
 8. [Dashboards](#Dashboards)
 9. [Setup and Installation](#Setup-and-Installation)
-10. 
+
 ## 1. Project overview
 **Lung cancer** is used to predict earlier diagnoses and treatment planning that can help doctors discover the disease before becoming worth.
 The project contain the following:
