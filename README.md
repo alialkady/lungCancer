@@ -71,6 +71,17 @@ Spark is used for it's ditributed processing and handling big data sets.
 https://github.com/alialkady/lungCancer.git
 cd lungCancer
 ```
+2- Initialize docker
+```
+docker-compose up -d
+```
+3- Access command line
+```
+docker exec -it <container_name> jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser --allow-root
+```
+Now you are ready to start the project with all requirments
+Enjoy..
+
 
 
 
