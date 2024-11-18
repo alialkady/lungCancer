@@ -9,15 +9,17 @@
 ## Table of content
 1. [Project overview](#Project_overview)
 2. [Architecture](#Architecture)
-3. [Technologies Used]
-4. [Data Sources]
-5. [ETL Process]
-6. [Database Systems]
-7. [Optimization Techniques]
-8. [Dashboards]
-9. [Setup and Installation]
-10. [Usage]
-11. [Contributing]
+3. [Technologies Used](#Technologies_Used)
+4. [Data Sources](#Data_Sources)
+5. [ETL Process](#ETL_Process)
+6. [Database Systems](#Database_Systems)
+7. [Optimization Techniques](#Optimization_Techniques)
+8. [Dashboards](#Dashboards)
+9. [Setup and Installation](#Setup_and_Installation)
+10. [Usage](#Usage)
+11. [Contributing](#Contributing)
+## 1. Project overview
+
 
 
   
