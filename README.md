@@ -54,7 +54,7 @@ CSV file from data world website and another one created to handle some analyzin
 SQL server is used because it supports SSIS for ELT process and design data warehouse.
 ![Image](star%20schema.jpg)
 
-## Optimization processing
+## Optimization techniques
 Spark is used for it's ditributed processing and handling big data sets.
 
 ## Dashboards
