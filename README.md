@@ -7,7 +7,7 @@
 - Provide insights to assist hospitals in diagnosing cancer stages.
 - Support early diagnosis and treatment planning.
 ## Table of content
-1. [Project overview](#project-overview)
+1. [Project overview](#Project-overview)
 2. [Architecture](#Architecture)
 3. [Technologies Used](#Technologies-Used)
 4. [Data Sources](#Data-Sources)
@@ -17,7 +17,7 @@
 8. [Dashboards](#Dashboards)
 9. [Setup and Installation](#Setup-and-Installation)
 
-## 1. Project overview
+## Project overview
 **Lung cancer** is used to predict earlier diagnoses and treatment planning that can help doctors discover the disease before becoming worth.
 The project contain the following:
 - **Docker-compose** file to launch the system and install all requirments needed.
