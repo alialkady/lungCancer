@@ -10,10 +10,10 @@
 1. [Project overview](#Project-overview)
 2. [Architecture](#Architecture)
 3. [Technologies Used](#Technologies-Used)
-4. [Data Sources](#Data-Sources)
-5. [ETL Process](#ETL-Process)
-6. [Database Systems](#Database-Systems)
-7. [Optimization Techniques](#Optimization-Techniques)
+4. [Data Sources](#Data-sources)
+5. [ETL Process](#ELT-process)
+6. [Database Systems](#Database-systems)
+7. [Optimization Techniques](#Optimization-techniques)
 8. [Dashboards](#Dashboards)
 9. [Setup and Installation](#Setup-and-Installation)
 
@@ -32,7 +32,7 @@ The project contain the following:
 - **Pyspark** to add big data technology and use batch processing with it.
 - **Power Bi** to create dashboards and visualize data.
 
-## Technology used
+## Technologies used
 - **Docker** to containerize the project with eazy deploymnet.
 - **SQL server** To create staging layer and data warehouse.
 - **SQL Alchemy** to create engine and interact with database using python
