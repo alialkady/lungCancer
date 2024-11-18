@@ -26,13 +26,13 @@ The project contain the following:
 - **predctive model*** with python to benefit from the data and get project purpose.
 - **Power Bi** to visualize data to stackholders with easy simplification.
 
-## 2. Architecture
+## Architecture
 - **SQL server** to extract data in staging layer for future use and creating data warehouse.
 - **Juypter notebook** to analyze data with python using Matplotlib and Make predictions with machine learning libraries.
 - **Pyspark** to add big data technology and use batch processing with it.
 - **Power Bi** to create dashboards and visualize data.
 
-## 3. Technology used
+## Technology used
 - **Docker** to containerize the project with eazy deploymnet.
 - **SQL server** To create staging layer and data warehouse.
 - **SQL Alchemy** to create engine and interact with database using python
@@ -41,26 +41,26 @@ The project contain the following:
 - **Pyspark** for batch processing and handle large datasets in the future.
 - **Power Bi** to visualize to stakeholders and take decisions.
 
-## 4. Data sources
+## Data sources
 CSV file from data world website and another one created to handle some analyzing process.
 
-## 5. ELT process
+## ELT process
 1. Extraction: using sql server to extract data from csv files and insert it in staging layer.
 2. Loading: Load the data into data warehouse(Star schema) for future transformation and analysis.
 3. Transformation: Tranform data in suitable manner for each purpose such as analysis and prediction.
    ![Image](Data%20pipeline.jpg)
 
-## 6. Database systems
+## Database systems
 SQL server is used because it supports SSIS for ELT process and design data warehouse.
 ![Image](star%20schema.jpg)
 
-## 7. Optimization processing
+## Optimization processing
 Spark is used for it's ditributed processing and handling big data sets.
 
-## 8. Dashboards
+## Dashboards
 ![Image](vis1.jpg) ![Image](vis2.jpg)
 
-## 9. Setup and Installation
+## Setup and Installation
 ### Prerequisites:
 - Docker installed
 - Docker-compose installed
