@@ -28,13 +28,24 @@ The project contain the following:
 - **Power Bi** to visualize data to stackholders with easy simplification.
 
 ## 2. Architecture
-- **Docker** to containerize the project with eazy deploymnet.
 - **SQL server** to extract data in staging layer for future use and creating data warehouse.
 - **Juypter notebook** to analyze data with python using Matplotlib and Make predictions with machine learning libraries.
 - **Pyspark** to add big data technology and use batch processing with it.
 - **Power Bi** to create dashboards and visualize data.
 
 ## 3. Technology used
+- **Docker** to containerize the project with eazy deploymnet.
+- **SQL server** To create staging layer and data warehouse.
+- ***SQL Alchemy** to create engine and interact with database using python
+- **Matplotlib** to analyze data and get hidden patterns.
+- **Machine learning libraries** to make some predictions and use it with big data.
+- **Pyspark** for batch processing and handle large datasets in the future.
+- **Power Bi** to visualize to stakeholders and take decisions.
+
+## 4. Data sources
+CSV file from data world website and another one created to handle some analyzing process.
+
+## 5. ETL process
 
 
 
