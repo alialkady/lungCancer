@@ -7,12 +7,17 @@
 - Provide insights to assist hospitals in diagnosing cancer stages.
 - Support early diagnosis and treatment planning.
 ## Table of content
-1. Project overview
-2. Architecture
-3. ## End
-This is the section where "End" is explained.
-
-[Go to End](#end)
+1. [Project overview](#Project_overview)
+2. [Architecture](#Architecture)
+3. Technologies Used
+4. Data Sources
+5. ETL Process
+6. Database Systems
+7. Optimization Techniques
+8. Dashboards
+9. Setup and Installation
+10. Usage
+11. Contributing
 
 
   
